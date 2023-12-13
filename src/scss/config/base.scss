@@ -1,0 +1,28 @@
+@import 'keyframes';
+
+.container {
+  width: 100%;
+  max-width: $containerWidth;
+  margin: 0 auto;
+  padding: 0 80rem;
+  @media (max-width: $lg) {
+    padding-right: 40rem;
+    padding-left: 40rem;
+  }
+  @media (max-width: $sm) {
+    padding-right: 16rem;
+    padding-left: 16rem;
+  }
+}
+
+.row {
+  margin: 0 var(--gap-);
+  display: flex;
+  flex-wrap: wrap;
+  &__col {
+    max-width: 100%;
+    min-height: 1rem;
+    padding: 0 var(--gap);
+    flex-grow: 1;
+  }
+}

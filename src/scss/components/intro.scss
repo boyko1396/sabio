@@ -1,0 +1,25 @@
+.intro {
+  background: url(../images/intro-bg.svg) right bottom / cover no-repeat;
+  padding: 52rem 0 120rem;
+  color: $accentColor;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  &__container {
+  }
+  &__content {
+    max-width: 620rem;
+  }
+  &__title {
+    margin: 0 0 32rem;
+    line-height: 1;
+  }
+  &__description {
+    max-width: 590rem;
+    margin: 0 0 56rem;
+    font-size: var(--fs-6);
+    line-height: 1;
+  }
+  &__btn {
+  }
+}

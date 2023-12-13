@@ -1,0 +1,66 @@
+$siteResolution: 1px;
+$mainFont: 'Inter';
+$mainWeight: 400;
+$lineHeightMedium: 1.2;
+$lineHeightTitle: 1;
+$lineHeightDefault: $lineHeightMedium;
+
+$containerWidth: 1280rem;
+
+$radiusSm: 8rem;
+$radiusMd: 12rem;
+$radiusLg: 16rem;
+$radiusXl: 42rem;
+
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$paleBlue: #fcfdff;
+$softGrey: #fdfdfe;
+$lavender: #c2c9ff;
+$lightGrey: #dddddd;
+$mintGreen: #17f871;
+$royalBlue: #0100fe;
+$deepBlue: #0057FA;
+$periwinkle: #7579c1;
+$midnightBlue: #000b36;
+
+$fontFamily: $mainFont, sans-serif;
+$fontColor: $whiteColor;
+$fontWeight: $mainWeight;
+$accentColor: $mintGreen;
+
+$transition: all .4s 0ms;
+
+$lg: 1199px;
+$lg-mf: $lg + 1;
+
+$md: 991px;
+$md-mf: $md + 1;
+
+$sm: 767px;
+$sm-mf: $sm + 1;
+
+$xs: 576px;
+$xs-mf: $xs;
+
+:root {
+  --fs-default: 14rem;
+  --fs-1: 96rem;
+  --fs-2: 42rem;
+  --fs-3: 36rem;
+  --fs-4: 32rem;
+  --fs-5: 28rem;
+  --fs-6: 24rem;
+  --fs-7: 22rem;
+  --fs-8: 20rem;
+  --fs-9: 18rem;
+  --fs-10: 16rem;
+  --offset: 15rem;
+  --offset-: 15rem;
+  --gap: 12rem;
+  --gap-: -12rem;
+  --gap-fluid: 24rem;
+  --gap-fluid-: -24rem;
+  @media (max-width: $md) {
+  }
+}
